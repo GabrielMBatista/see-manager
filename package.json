@@ -1,0 +1,22 @@
+{
+  "name": "sse-manager",
+  "version": "1.0.0",
+  "description": "base SSE para integração Server/client",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Gabriel Marques Batista - GabrielMBatista",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
